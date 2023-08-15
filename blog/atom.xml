@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>https://spencerahill.github.io</id>
+  <title>Couldn't Stand The Weather Blog</title>
+  <updated>2023-08-15T20:49:14.941809+00:00</updated>
+  <link href="https://spencerahill.github.io"/>
+  <link href="https://spencerahill.github.io/blog/atom.xml" rel="self"/>
+  <generator uri="https://ablog.readthedocs.io/" version="0.11.4.post1">ABlog</generator>
+  <entry>
+    <id>https://spencerahill.github.io/intro-post/</id>
+    <title>Time to get ready for the storm</title>
+    <updated>2023-08-15T00:00:00-04:00</updated>
+    <author>
+      <name>Spencer A. Hill</name>
+    </author>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;This blog will discuss music, climate, weather, climate and weather in
+music, and climate and weather in other media (mediums?). Most of all,
+it will be an outlet for me to share music that I love.&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://spencerahill.github.io/intro-post/" rel="alternate"/>
+    <summary>This blog will discuss music, climate, weather, climate and weather in
+music, and climate and weather in other media (mediums?). Most of all,
+it will be an outlet for me to share music that I love.</summary>
+    <category term="music" label="music"/>
+    <published>2023-08-15T00:00:00-04:00</published>
+  </entry>
+</feed>
