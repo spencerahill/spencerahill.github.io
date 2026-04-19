@@ -1,0 +1,64 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - papers/
+    - cv/
+    - CNAME
+    - .nojekyll
+
+website:
+  title: "Spencer A. Hill"
+  description: "Academic website of Spencer A. Hill, climate scientist at The City College of New York."
+  site-url: https://spencerahill.github.io
+  repo-url: https://github.com/spencerahill/my-website
+  open-graph: true
+  twitter-card:
+    creator: "@spencerahill"
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: group.qmd
+        text: Group
+      - href: opportunities.qmd
+        text: Opportunities
+      - href: publications.qmd
+        text: Publications
+      - href: cv/cv_spencer-hill.pdf
+        text: CV
+      - href: teaching.qmd
+        text: Teaching
+      - href: blog/index.qmd
+        text: Blog
+      - href: https://diynamics.github.io/
+        text: DIYnamics
+      - href: resources.qmd
+        text: Resources
+      - href: about.qmd
+        text: About
+  page-footer:
+    left: "Spencer A. Hill"
+    right:
+      - icon: github
+        href: https://github.com/spencerahill
+      - icon: twitter
+        href: https://twitter.com/spencerahill
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.scss
+    css: styles.css
+    toc: false
+    grid:
+      sidebar-width: 220px
+      body-width: 720px
+      margin-width: 280px
+    fontsize: 1.05em
+    linestretch: 1.5
+    html-math-method: katex
+    link-external-newwindow: true
+    link-external-icon: false

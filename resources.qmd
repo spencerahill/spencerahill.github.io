@@ -1,0 +1,161 @@
+---
+title: "Resources"
+---
+
+This page comprises a loosely organized collection of resources I have found
+useful. Your mileage may vary.
+
+## Science communication
+
+### Figures
+
+| Link | Notes |
+|---|---|
+| [Principiae](http://www.principiae.be/) | Materials on effective figures (and slides and writing) |
+| [Edward Tufte](http://www.edwardtufte.com/tufte/index) | Classic books on effective data displays |
+
+### Writing
+
+| Link | Notes |
+|---|---|
+| [The Elements of Style](http://www.amazon.com/The-Elements-Style-Fourth-Edition/dp/020530902X), Strunk and White | *The* starting place. "Omit needless words!" |
+| [The Sense of Style](https://www.amazon.com/Sense-Style-Thinking-Persons-Writing/dp/0143127799), Steven Pinker | Excellent modern writing guide |
+| [Writing Science](https://www.amazon.com/Writing-Science-Papers-Proposals-Funded/dp/0199760241), Joshua Schimel | Excellent science-specific writing guide |
+| [On Writing](https://www.amazon.com/Writing-10th-Anniversary-Memoir-Craft/dp/1439156816), Stephen King | Classic. Nominally about fiction but invaluable to science writing |
+| [A Swim in a Pond in the Rain](https://smile.amazon.com/Swim-Pond-Rain-Russians-Writing-ebook/dp/B0871LKPJ3), George Saunders | Ditto. Replace "art/writer/story" etc. with "science/scientist/article" |
+
+### LaTeX
+
+| Link | Notes |
+|---|---|
+| <http://latexcolor.com/> | Copy-pasteable color definitions for LaTeX documents |
+| [A very minimal introduction to TikZ](http://cremeronline.com/LaTeX/minimaltikz.pdf) | Great entry into TikZ and PGF |
+| [Detexify](http://detexify.kirelabs.org/classify.html) | Draw a symbol, get the LaTeX command for it |
+| [Beamer customization cheat sheet](http://www.cpt.univ-mrs.fr/~masson/latex/Beamer-appearance-cheat-sheet.pdf) | Quick reference for tweaking Beamer |
+
+### Emacs and org-mode
+
+[Org-mode](http://orgmode.org/) is an extension of the
+[Emacs](https://www.gnu.org/software/emacs/emacs.html) text editor for creating
+outline-like documents, with lots of functionality for embedding to-do lists,
+links, code, and images and for converting the files to LaTeX, HTML, and other
+formats.
+
+The previous version of this website was written as a collection of org-mode
+files, published to HTML using org's publish functionality. I have since
+migrated to [Quarto](https://quarto.org/); see the
+[repo](https://github.com/spencerahill/my-website) for details.
+
+| Link | Notes |
+|---|---|
+| [Emacs for Mac OS X](https://emacsformacosx.com/) | Easily install GUI version of Emacs on Mac OS X/macOS |
+| [exec-path-from-shell](https://github.com/purcell/exec-path-from-shell) | Link environment variables from shell into Emacs |
+
+## Python
+
+I am an avid user of the [Python](https://www.python.org/) programming
+language, which is modern, powerful, elegant, open-source, and
+well-documented. In addition to the [aospy](https://aospy.readthedocs.io)
+project, I also have a few other, less polished open-source Python packages
+that I have created as side projects; they are available on
+[my Github](https://github.com/spencerahill).
+
+### Core packages I use
+
+| Link | Notes |
+|---|---|
+| [pangeo](https://pangeo.io/) | Community platform for Big Data geoscience |
+| [xarray](http://xarray.pydata.org) | N-dimensional labeled arrays and datasets |
+| [dask](http://dask.pydata.org/en/latest/) | Parallel computing and memory chunking |
+| [matplotlib](http://matplotlib.org/) | For plotting |
+| [cartopy](http://scitools.org.uk/cartopy/docs/latest/index.html) | For plotting maps |
+
+### Python environments and package managers
+
+| Link | Notes |
+|---|---|
+| [conda](https://docs.conda.io/projects/conda) | `conda env create` and `conda install` are your friend :) |
+| [miniconda](https://rabernat.medium.com/custom-conda-environments-for-data-science-on-hpc-clusters-32d58c63aa95) | Guide to setting up conda environments on HPC clusters |
+| [Jupyterlab](https://jupyterlab.readthedocs.io) | Web-based interactive Python interface |
+
+## Research tools
+
+### Climate science & meteorology history
+
+| Link | Notes |
+|---|---|
+| [Geoff Vallis's collection of classic papers](http://empslocal.ex.ac.uk/people/staff/gv219/classics.d/index.html) | With useful comments by G. Vallis |
+| [Old Weather](http://www.oldweather.org/) | Citizen-science project: transcribe historical ship logs of weather data |
+
+### Models
+
+| Link | Notes |
+|---|---|
+| [MITGCM](http://mitgcm.org/) | M.I.T. General Circulation Model |
+| [HYSPLIT](http://ready.arl.noaa.gov/HYSPLIT_traj.php) | Compute forward and backward air trajectories |
+
+### Climate data portals
+
+- [NCAR Climate Data Guide](https://climatedataguide.ucar.edu/)
+- [NASA Global Change Master Directory](http://gcmd.gsfc.nasa.gov/index.html)
+- [Columbia IRI Climate Data Library](http://iridl.ldeo.columbia.edu/)
+- [U. Wisc. weather satellite imagery portal](http://www.aos.wisc.edu/weather/wx_obs/Satellite.html)
+
+### Data visualization
+
+| Link | Notes |
+|---|---|
+| [nullschool.net](https://earth.nullschool.net/) | Beautiful, interactive visualization of meteorological and ocean data |
+| [Gateway to Astronaut Photography of Earth](https://eol.jsc.nasa.gov/) | NASA portal to imagery of Earth taken by astronauts |
+| [Martin Jucker's 3D weather visualizations](https://www.martinjucker.com/weather/) | Beautiful videos and plots of current and past weather |
+
+### Command line utilities
+
+| Link | Notes |
+|---|---|
+| [netCDF Operator (NCO) toolkit](http://nco.sourceforge.net/) | Library of command-line tools for netCDF data |
+| [tree command](http://mama.indstate.edu/users/ice/tree/) | Recursive directory listing |
+| [colordiff](http://www.colordiff.org/) | Colorize the `diff` command-line tool |
+
+## Career
+
+### Climate science podcasts (with discussion of career trajectories)
+
+| Link | Notes |
+|---|---|
+| [Deep Convection](https://adamsobel.org/podcast/) | Hosted by Adam Sobel |
+| [Forecast](http://forecastpod.org/) | Hosted by Michael White, Nature's climate science editor |
+
+### Career advice books
+
+These take a tough-love, no-nonsense approach that I find useful.
+
+- [The Professor is In](https://theprofessorisin.com/buy-the-book/), Karen Kelsky
+- [Good Work if You Can Get It](https://www.amazon.com/Good-Work-You-Can-Get/dp/1421437961), Jason Brennan
+
+### Postdoctoral fellowships
+
+- [NOAA Climate and Global Change Postdoctoral Fellowship](https://cpaess.ucar.edu/cgc)
+- [NSF Atmospheric and Geospace Sciences Postdoctoral Fellowship](https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12779)
+
+### Graduate school fellowships
+
+- [NSF Graduate Research Fellowship](http://www.nsfgrfp.org/)
+- [Dept. of Defense National Defense Science and Engineering Graduate Fellowship](https://ndseg.sysplus.com/)
+- [Hertz Foundation Graduate Fellowship](https://www.hertzfoundation.org/the-fellowship/about/)
+- [NASA FINESST](https://astrobiology.nasa.gov/funding/future-investigators-in-nasa-earth-and-space-sci-2/)
+
+### Undergraduate scholarships, national
+
+| Link | Notes |
+|---|---|
+| [CCNY list of national scholarships](https://www.ccny.cuny.edu/national-scholarships/national-scholarships-and-fellowships-links) | List of 20+ national scholarship programs |
+| [NOAA Jose E. Serrano EPP/MSI scholarship](https://www.noaa.gov/office-education/epp-msi) | For underrepresented minorities; funding and NOAA internship |
+| [NOAA Hollings Scholarship](https://www.noaa.gov/office-education/hollings-scholarship) | For undergraduate sophomores; funding and NOAA internship |
+| [Barry Goldwater Scholarship](https://goldwater.scholarsapply.org/) | For undergraduate juniors in sciences |
+
+### CCNY funding
+
+| Link | Notes |
+|---|---|
+| [City College Fellowship](https://www.ccny.cuny.edu/fellowships/aboutccny) | For sophomores and juniors seeking to pursue a PhD |

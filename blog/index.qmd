@@ -1,0 +1,14 @@
+---
+title: "Blog"
+subtitle: "Notes on climate science, music, writing, and the overlap."
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  feed: true
+page-layout: full
+title-block-banner: false
+---

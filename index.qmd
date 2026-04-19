@@ -1,0 +1,83 @@
+---
+title: "Spencer A. Hill"
+subtitle: "Assistant Professor, Dept. of Earth and Atmospheric Sciences, The City College of New York"
+pagetitle: "Spencer A. Hill"
+about:
+  template: trestles
+  image: images/site_pic.jpeg
+  image-shape: rounded
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:shill1@ccny.cuny.edu
+    - icon: github
+      text: GitHub
+      href: https://github.com/spencerahill
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/spencerahill
+    - icon: google
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=spencerahill
+---
+
+## Overview
+
+Welcome! I am a climate scientist interested in tropical overturning
+circulations ([monsoons](https://en.wikipedia.org/wiki/Monsoon),
+[Hadley cells](https://en.wikipedia.org/wiki/Hadley_cell), and the
+[Intertropical Convergence Zone](https://en.wikipedia.org/wiki/Intertropical_Convergence_Zone),
+a.k.a. the ITCZ). Specifically:
+
+- Why they exist when and where they do
+- How they ebb and flow over the course of each year
+- How well we can predict their variations from year to year
+- How those year-to-year variations affect agricultural and economic outcomes
+- How they may have changed in Earth's history
+- How they may change in Earth's future
+- How they behave in other planetary atmospheres.
+
+I'm also interested in how weather and climate impact real-world outcomes for
+New York City. I explore all this with the other talented members of my New
+York Climate Investigations: Theory To Impacts (New York CITTI) research group.
+Please see the [Publications](publications.qmd) page to learn more about our past
+work, the [Group](group.qmd) page to learn more about who we are, and the
+[Opportunities](opportunities.qmd) page to learn more about joining us.
+
+I work in the [Department of Earth and Atmospheric Sciences](https://www.ccny.cuny.edu/eas)
+at [The City College of New York](https://www.ccny.cuny.edu/) as an Assistant Professor.
+
+I also hold an adjunct position at the [Lamont-Doherty Earth Observatory](https://www.ldeo.columbia.edu/)
+at [Columbia University](https://www.columbia.edu/), where I collaborate with
+[Michela Biasutti](https://www.ldeo.columbia.edu/~biasutti/) on a project
+investigating the role of energy transports by tropical transient disturbances
+in setting the location of the ITCZ.
+
+I am also interested in the connections between weather and climate
+science on the one hand with music, literature, poetry, and other forms of human
+expression on the other hand. I write about this at my
+[blog](blog/index.qmd), and occasionally tweet about it from my account
+[\@spencerahill](https://twitter.com/spencerahill) using the hashtag
+[#CliSciHiFi](https://twitter.com/hashtag/CliSciHiFi).
+
+I also co-founded the "[DIYnamics](https://diynamics.github.io/)" project that
+seeks to improve the teaching of meteorology, climate science, and other
+planetary-scale sciences at the K-12 through graduate school levels by
+developing inexpensive, easy-to-use kits for performing physical demonstrations
+of core scientific concepts. Please see the DIYnamics
+[website](https://diynamics.github.io/) and
+[YouTube channel](https://www.youtube.com/channel/UCnUHxOSVY4G4OFbF8XL1qUg) for more.
+
+Finally, I am also interested in developing software tools for scientists in
+the Python programming language. Please see my [Resources](resources.qmd) page
+for more.
+
+Please contact me with any questions about my research or anything else you
+find on this site. Thanks!
+
+---
+
+## Contact
+
+[shill1@ccny.cuny.edu](mailto:shill1@ccny.cuny.edu) | Room 733 | Marshak Science
+Building | The City College of New York | 160 Convent Avenue | New York, NY 10031
