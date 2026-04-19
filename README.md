@@ -1,20 +1,31 @@
 # Source code for Spencer Hill's academic website
-This repository houses the source code I use to generate [my academic
-website](https://www.ldeo.columbia.edu/~shill/).  I write the website
-as a set of [Emacs org-mode](http://orgmode.org/) files, and then use
-org's [publishing](http://orgmode.org/manual/Publishing.html)
-capabilities to generate the HTML.
 
-If you're just looking for the website itself, visit it
-[here](https://www.ldeo.columbia.edu/~shill/).
+This repository houses the source for [my academic website](https://spencerahill.github.io/).
 
-Otherwise, see the
-[org](https://github.com/spencerahill/my-website/tree/master/org)
-subdirectory for the org mode files used to generate the HTML.
+The site is built with [Quarto](https://quarto.org/) and deployed to GitHub
+Pages via the workflow in `.github/workflows/publish.yml`.
 
-It's likely that this won't work on your machine out of the
-box...there are some configurations required that live in my `.emacs`
-file on my local machine.
+## Local development
 
-Please feel free to copy any part of this repo --- although make sure
-to replace my website contents with your own!
+```sh
+# Install Quarto: https://quarto.org/docs/get-started/
+quarto preview        # live-reload preview at http://localhost:xxxx
+quarto render         # full build into _site/
+```
+
+## Structure
+
+- `index.qmd`, `group.qmd`, `opportunities.qmd`, `publications.qmd`,
+  `teaching.qmd`, `resources.qmd`, `about.qmd` — top-level pages
+- `blog/` — blog with listing page and dated posts under `blog/posts/`
+- `images/`, `papers/` — static assets served as-is
+- `styles.scss`, `styles.css` — Tufte-inspired theme layered on the Cosmo base
+- `_quarto.yml` — site config, navigation, formats
+- `org/`, `public_html/`, `css/style.css` — retained for archival reference;
+  these are the legacy org-mode sources and their generated HTML
+
+## Deploy
+
+Pushes to `main` trigger a GitHub Actions build that publishes the rendered
+`_site/` directory to GitHub Pages. Configure a custom domain by adding a
+`CNAME` file at the repo root and updating `_quarto.yml` `site-url`.

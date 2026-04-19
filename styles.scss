@@ -1,0 +1,33 @@
+/*-- scss:defaults --*/
+
+$font-family-sans-serif: "et-book", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif !default;
+$font-family-serif: "et-book", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif !default;
+
+$body-color: #111 !default;
+$body-bg: #fffff8 !default;
+$link-color: #111 !default;
+
+$h1-font-size: 1.8rem !default;
+$h2-font-size: 1.4rem !default;
+$h3-font-size: 1.15rem !default;
+
+/*-- scss:rules --*/
+
+@font-face {
+  font-family: "et-book";
+  src: url("https://edwardtufte.github.io/et-book/et-book/et-book-roman-line-figures/et-book-roman-line-figures.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "et-book";
+  src: url("https://edwardtufte.github.io/et-book/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "et-book";
+  src: url("https://edwardtufte.github.io/et-book/et-book/et-book-bold-line-figures/et-book-bold-line-figures.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}

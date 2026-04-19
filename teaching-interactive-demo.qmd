@@ -1,0 +1,37 @@
+---
+title: "Interactive demo: Rotation rate and jet latitude"
+subtitle: "A tiny Observable JS sketch to illustrate how faster planetary rotation pulls midlatitude jets equatorward."
+---
+
+This page is a placeholder / template for adding interactive pedagogical tools
+to the site. Quarto supports [Observable JS](https://quarto.org/docs/interactive/ojs/)
+out of the box, which is perfect for small, self-contained climate demos that
+students can tweak in the browser.
+
+Drag the slider below to change the (dimensionless) rotation rate and see a
+toy scaling for the Hadley cell edge latitude, $\phi_H \propto \Omega^{-1/3}$.
+
+```{ojs}
+viewof omega = Inputs.range([0.1, 5], {value: 1, step: 0.05, label: "Rotation rate Ω (Earth = 1)"})
+```
+
+```{ojs}
+phi_H = 30 * Math.pow(omega, -1/3)
+md`**Estimated Hadley cell edge latitude:** ${phi_H.toFixed(1)}°`
+```
+
+```{ojs}
+Plot.plot({
+  width: 640,
+  x: {label: "Ω (Earth units)", domain: [0.1, 5]},
+  y: {label: "ϕ_H (degrees)", domain: [0, 90]},
+  marks: [
+    Plot.line(d3.range(0.1, 5.01, 0.05), {x: d => d, y: d => 30 * Math.pow(d, -1/3)}),
+    Plot.dot([[omega, phi_H]], {r: 5, fill: "red"})
+  ]
+})
+```
+
+*This is a toy relationship for illustration only — see
+[Held & Hou (1980)](https://doi.org/10.1175/1520-0469(1980)037<0515:NASCIA>2.0.CO;2)
+for the real derivation.*
