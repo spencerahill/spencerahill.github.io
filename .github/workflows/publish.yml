@@ -2,7 +2,7 @@ name: Build and deploy Quarto site
 
 on:
   push:
-    branches: [main, claude/migrate-academic-website-C6WkT]
+    branches: [master, claude/migrate-academic-website-C6WkT]
   workflow_dispatch:
 
 permissions:
