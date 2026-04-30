@@ -130,7 +130,7 @@ title: "Publications"
     static energy budget-based analysis of the Sahel rainfall response to
     uniform oceanic warming." *Journal of Climate*, **30**, 5637-5660.
     doi: [10.1175/JCLI-D-16-0785.1](https://doi.org/10.1175/JCLI-D-16-0785.1).
-    [PDF](papers/2017sahel_mse_precip.pdf).
+    [PDF](papers/hill+2017sahel_mse_precip.pdf).
 24. (2017) Brown, Patrick T., Yi Ming, Wenhong Li, and **SA Hill**. "Change in
     the magnitude and mechanisms of unforced low-frequency surface temperature
     variability in a warmer climate." *Nature Climate Change*, **7**, 743-748.

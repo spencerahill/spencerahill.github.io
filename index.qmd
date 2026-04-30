@@ -56,7 +56,7 @@ in setting the location of the ITCZ.
 I am also interested in the connections between weather and climate
 science on the one hand with music, literature, poetry, and other forms of human
 expression on the other hand. I write about this at my
-[blog](blog/index.qmd), and occasionally tweet about it from my account
+[blog](https://spencerahill.github.io/couldnt-stand-the-weather/home.html), and occasionally tweet about it from my account
 [\@spencerahill](https://twitter.com/spencerahill) using the hashtag
 [#CliSciHiFi](https://twitter.com/hashtag/CliSciHiFi).
 

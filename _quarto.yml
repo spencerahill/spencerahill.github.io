@@ -4,7 +4,6 @@ project:
   resources:
     - papers/
     - cv/
-    - CNAME
     - .nojekyll
 
 website:
@@ -30,7 +29,7 @@ website:
         text: CV
       - href: teaching.qmd
         text: Teaching
-      - href: blog/index.qmd
+      - href: https://spencerahill.github.io/couldnt-stand-the-weather/home.html
         text: Blog
       - href: https://diynamics.github.io/
         text: DIYnamics
