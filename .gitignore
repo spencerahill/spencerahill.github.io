@@ -12,3 +12,5 @@ org/*.toc
 # Quarto build outputs
 /_site/
 /.quarto/
+
+**/*.quarto_ipynb
