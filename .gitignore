@@ -1,2 +1,14 @@
 Makefile
 shill.ccny.cuny.edu_info.txt
+
+# LaTeX byproducts from org-mode export
+org/*.tex
+org/*.pdf
+org/*.aux
+org/*.log
+org/*.out
+org/*.toc
+
+# Quarto build outputs
+/_site/
+/.quarto/
