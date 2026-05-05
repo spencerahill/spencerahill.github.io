@@ -19,7 +19,7 @@ real-world impacts. We have two main research strands:
 
 ### Spencer Hill (Assistant Professor, CCNY EAS)
 
-![Spencer Hill](images/site-pic_2023-08.jpg){width=270px fig-alt="Spencer Hill"}
+![Spencer Hill](images/site-pic_2023-08.jpg){height=270px fig-alt="Spencer Hill"}
 
 My biggest passions are my wonderful family (wife, daughter, dog), science, and
 music. I deeply love my adopted hometown of NYC. My favorite pizza in the city
@@ -32,7 +32,7 @@ sandwich.
 
 ### Alex Parsells (Ph.D. student, Columbia University DEES, group member since September 2022)
 
-![Alex Parsells](images/alex-parsells.jpg){width=270px fig-alt="Alex Parsells"}
+![Alex Parsells](images/alex-parsells.jpg){height=270px fig-alt="Alex Parsells"}
 
 Alex is a second-year Ph.D. student at Columbia University studying the
 relationship between tropical rainfall and poleward energy transport. He has a

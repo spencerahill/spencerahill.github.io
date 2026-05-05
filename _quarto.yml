@@ -37,8 +37,6 @@ website:
         text: DIYnamics
       - href: resources.qmd
         text: Resources
-      - href: about.qmd
-        text: About
   page-footer:
     left: "Spencer A. Hill"
     right:

@@ -2,23 +2,6 @@
 title: "Spencer A. Hill"
 subtitle: "Assistant Professor, Dept. of Earth and Atmospheric Sciences, The City College of New York"
 pagetitle: "Spencer A. Hill"
-about:
-  template: trestles
-  image: images/site_pic.jpeg
-  image-shape: rounded
-  links:
-    - icon: envelope
-      text: Email
-      href: mailto:shill1@ccny.cuny.edu
-    - icon: github
-      text: GitHub
-      href: https://github.com/spencerahill
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/spencerahill
-    - icon: google
-      text: Google Scholar
-      href: https://scholar.google.com/citations?user=spencerahill
 ---
 
 ## Overview

@@ -4,18 +4,13 @@ title: "Teaching"
 
 ## Current courses
 
-- Fall 2025: [EAS 42000 / EAS A4200: Statistical Methods in Earth and Atmospheric Sciences](https://spencerahill.github.io/25f-stat-methods-course/home.html)
-
----
-
-## Upcoming courses
-
 - Spring 2026: EAS 48800 / EAS B8800 / SUS 7300B: Climate and Climate Change
 
 ---
 
 ## Past courses
 
+- Fall 2025: [EAS 42000 / EAS A4200: Statistical Methods in Earth and Atmospheric Sciences](https://spencerahill.github.io/25f-stat-methods-course/home.html)
 - Spring 2025: [EAS 48800 / EAS B8800 / SUS 7300B: Climate and Climate Change](https://spencerahill.github.io/clim-change-course_2025/home.html)
 - Fall 2024: EAS 30000/B1300: Earth and Environmental Science Seminar
 - Spring 2024: [EAS 48800 / EAS B8800 / SUS 7300B: Climate and Climate Change](https://spencerahill.github.io/clim-change-course_2024/home.html)
