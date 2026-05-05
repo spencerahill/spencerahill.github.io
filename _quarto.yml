@@ -37,14 +37,6 @@ website:
         text: DIYnamics
       - href: resources.qmd
         text: Resources
-  page-footer:
-    left: "Spencer A. Hill"
-    right:
-      - icon: github
-        href: https://github.com/spencerahill
-      - icon: twitter
-        href: https://twitter.com/spencerahill
-
 format:
   html:
     theme:
