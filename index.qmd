@@ -52,8 +52,8 @@ of core scientific concepts. Please see the DIYnamics
 [YouTube channel](https://www.youtube.com/channel/UCnUHxOSVY4G4OFbF8XL1qUg) for more.
 
 Finally, I am also interested in developing software tools for scientists in
-the Python programming language. Please see my [Resources](resources.qmd) page
-for more.
+the Python programming language ([on GitHub](https://github.com/spencerahill)).
+Please see my [Resources](resources.qmd) page for more.
 
 Please contact me with any questions about my research or anything else you
 find on this site. Thanks!
