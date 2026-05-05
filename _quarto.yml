@@ -12,7 +12,7 @@ website:
   title: "Spencer A. Hill"
   description: "Academic website of Spencer A. Hill, climate scientist at The City College of New York."
   site-url: https://spencerahill.github.io
-  repo-url: https://github.com/spencerahill/my-website
+  repo-url: https://github.com/spencerahill/spencerahill.github.io
   open-graph: true
   twitter-card:
     creator: "@spencerahill"

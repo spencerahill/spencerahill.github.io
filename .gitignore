@@ -14,3 +14,6 @@ org/*.toc
 /.quarto/
 
 **/*.quarto_ipynb
+
+# Claude Code local settings (personal permission rules, not for sharing)
+.claude/settings.local.json
