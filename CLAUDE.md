@@ -48,21 +48,31 @@ Group / opportunities / teaching pages: edit the respective `.qmd` directly and 
 `tools/optimize-staged-pdfs.sh` runs from the repository's pre-commit hook and
 shrinks every staged PDF with `optpdf` before it is committed, so a paper
 dropped into `papers/` never reaches the published site at its original size.
-It downsamples images to 300 dpi by default, which keeps figures at print
-resolution; measured over the 32 PDFs in `papers/` on 2026-09-16 that takes the
-directory from 72.3 MB to 62.6 MB, and 150 dpi would take it to 51.5 MB at
-screen-only quality.
 
-`optpdf` keeps the original whenever Ghostscript's output is larger or has lost
-text, so a file the hook leaves alone is one that could not be shrunk safely. A
-PDF whose bulk is vector line art rather than images barely shrinks at any
-setting.
+**Nothing published here is ever re-rendered.** `optpdf`'s default mode rebuilds
+the file's structure, recompresses its streams and rebuilds the Huffman tables
+of embedded JPEGs, so the pages render pixel for pixel identically and the
+extracted text is byte for byte identical. It verifies the page count and the
+extracted text before writing, and keeps the original if either differs or if
+the result is not smaller. Measured over the 32 PDFs in `papers/` on 2026-09-16,
+that takes the directory to 92.5% of its size, smaller on 30 of 32 files, with
+the text identical on all 32.
+
+`PDF_OPT_DPI=300 git commit` additionally downsamples images, which does change
+how figures look and is therefore off by default. It re-renders through
+Ghostscript, whose output fails the text check on about half of these papers, so
+expect it to be refused often.
+
+A PDF whose bulk is vector line art rather than images has little left to
+squeeze: the wildfire smoke paper is 65% vector figures and shrinks by 5%.
+
+`optpdf` needs `uv`, which supplies `pikepdf` through the script's inline
+dependency block, plus `pdftotext` and `pdfinfo` for the verification.
 
 The hook lives in `.git/hooks`, which git does not track, so a fresh clone needs
 `bash tools/install-hooks.sh` once. `SKIP_PDF_OPT=1 git commit` skips it for one
-commit and `PDF_OPT_DPI=150 git commit` changes the resolution. The hook never
-blocks a commit: a missing `optpdf` or a failed conversion prints a message and
-the commit proceeds.
+commit. The hook never blocks a commit: a missing `optpdf` or a failed
+conversion prints a message and the commit proceeds.
 
 ## Permissions
 
