@@ -34,13 +34,13 @@ sandwich.
 
 ![Alex Parsells](images/alex-parsells.jpg){height=270px fig-alt="Alex Parsells"}
 
-Alex is a second-year Ph.D. student at Columbia University studying the
+Alex is a Ph.D. student at Columbia University studying the
 relationship between tropical rainfall and poleward energy transport. He has a
 background in astrophysics and enjoys backpacking, trivia, and White Castle.
 
 ---
 
-### Greg Randazzo (M.S. student, CCNY EAS, group member since August 2023)
+### Greg Randazzo (Ph.D. student, CUNY Graduate Center EES, group member since August 2023)
 
 ![Greg Randazzo](images/greg-randazzo.jpg){height=270px fig-alt="Greg Randazzo"}
 
@@ -51,18 +51,7 @@ taking care of my plants. <https://dynamicplanet.net/>
 
 ---
 
-### Haochang Luo (Postdoc, CCNY EAS, group member since April 2024)
-
-![Haochang Luo](images/haochang-luo.jpg){height=270px fig-alt="Haochang Luo"}
-
-Haochang graduated from the University of Michigan with a PhD in Climate and
-Space Sciences and Engineering. Most of his research focuses on tropical
-dynamics. His research interests include convection, precipitation, tropical
-meteorology, climate change, and multi-scale interactions.
-
----
-
-### Edda Monique Hobuss (B.S. student, CCNY, group member since August 2024)
+### Edda Monique Hobuss (M.S. student, CCNY EAS, group member since August 2024)
 
 ![Edda Hobuss](images/edda-hobuss.jpg){height=270px fig-alt="Edda Hobuss"}
 
@@ -98,3 +87,17 @@ variability of synoptic-scale tropical motions and how they respond to climate
 change. I am broadly interested in tropical meteorology, equatorial waves and
 large-scale atmospheric dynamics. In my free time I like to cook, read, go for
 a walk and spend time with my family.
+
+---
+
+## Former members
+
+### Haochang Luo (Postdoc, CCNY EAS, 2024-2026)
+
+![Haochang Luo](images/haochang-luo.jpg){height=270px fig-alt="Haochang Luo"}
+
+Haochang graduated from the University of Michigan with a PhD in Climate and
+Space Sciences and Engineering. Most of his research focuses on tropical
+dynamics. His research interests include convection, precipitation, tropical
+meteorology, climate change, and multi-scale interactions.
+

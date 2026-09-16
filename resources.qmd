@@ -12,7 +12,7 @@ useful. Your mileage may vary.
 | Link | Notes |
 |---|---|
 | [Principiae](http://www.principiae.be/) | Materials on effective figures (and slides and writing) |
-| [Edward Tufte](http://www.edwardtufte.com/tufte/index) | Classic books on effective data displays |
+| [Edward Tufte](https://www.edwardtufte.com/tufte/) | Classic books on effective data displays |
 
 ### Writing
 
@@ -92,12 +92,12 @@ that I have created as side projects; they are available on
 | Link | Notes |
 |---|---|
 | [MITGCM](http://mitgcm.org/) | M.I.T. General Circulation Model |
-| [HYSPLIT](http://ready.arl.noaa.gov/HYSPLIT_traj.php) | Compute forward and backward air trajectories |
+| [HYSPLIT](https://www.ready.noaa.gov/HYSPLIT_traj.php) | Compute forward and backward air trajectories |
 
 ### Climate data portals
 
 - [NCAR Climate Data Guide](https://climatedataguide.ucar.edu/)
-- [NASA Global Change Master Directory](http://gcmd.gsfc.nasa.gov/index.html)
+- [NASA Global Change Master Directory](https://gcmd.earthdata.nasa.gov/)
 - [Columbia IRI Climate Data Library](http://iridl.ldeo.columbia.edu/)
 - [U. Wisc. weather satellite imagery portal](http://www.aos.wisc.edu/weather/wx_obs/Satellite.html)
 
@@ -107,14 +107,14 @@ that I have created as side projects; they are available on
 |---|---|
 | [nullschool.net](https://earth.nullschool.net/) | Beautiful, interactive visualization of meteorological and ocean data |
 | [Gateway to Astronaut Photography of Earth](https://eol.jsc.nasa.gov/) | NASA portal to imagery of Earth taken by astronauts |
-| [Martin Jucker's 3D weather visualizations](https://www.martinjucker.com/weather/) | Beautiful videos and plots of current and past weather |
+| [Martin Jucker's website](https://www.martinjucker.com/) | Weather and climate visualizations |
 
 ### Command line utilities
 
 | Link | Notes |
 |---|---|
 | [netCDF Operator (NCO) toolkit](http://nco.sourceforge.net/) | Library of command-line tools for netCDF data |
-| [tree command](http://mama.indstate.edu/users/ice/tree/) | Recursive directory listing |
+| [tree command](https://oldmanprogrammer.net/source.php?dir=projects/tree) | Recursive directory listing |
 | [colordiff](http://www.colordiff.org/) | Colorize the `diff` command-line tool |
 
 ## Career
@@ -140,10 +140,10 @@ These take a tough-love, no-nonsense approach that I find useful.
 
 ### Graduate school fellowships
 
-- [NSF Graduate Research Fellowship](http://www.nsfgrfp.org/)
+- [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/)
 - [Dept. of Defense National Defense Science and Engineering Graduate Fellowship](https://ndseg.sysplus.com/)
 - [Hertz Foundation Graduate Fellowship](https://www.hertzfoundation.org/the-fellowship/about/)
-- [NASA FINESST](https://astrobiology.nasa.gov/funding/future-investigators-in-nasa-earth-and-space-sci-2/)
+- [NASA early career opportunities, including FINESST](https://science.nasa.gov/earth-science/early-career-opportunities/)
 
 ### Undergraduate scholarships, national
 

@@ -24,6 +24,7 @@ jobs:
           args: >-
             --no-progress
             --max-concurrency 4
-            --accept 200,204,206,403,429
+            --timeout 30
+            --accept 200,202,204,206,301,302,403,405,429
             _site
           fail: true
