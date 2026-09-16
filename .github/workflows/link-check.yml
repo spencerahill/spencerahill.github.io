@@ -18,6 +18,11 @@ jobs:
       - name: Render site
         run: quarto render
 
+      # The four excluded hosts were each fetched by hand on 2026-09-16 and
+      # returned 200 in under a second, but they time out or fail the
+      # certificate check from GitHub's runners, so they were the only
+      # remaining failures once the accepted status codes were widened.
+      # doi.org answers a HEAD request with 405, hence that code.
       - name: Check links
         uses: lycheeverse/lychee-action@v2
         with:
@@ -25,6 +30,11 @@ jobs:
             --no-progress
             --max-concurrency 4
             --timeout 30
+            --max-retries 3
             --accept 200,202,204,206,301,302,403,405,429
+            --exclude earth\.columbia\.edu
+            --exclude nicholas\.duke\.edu
+            --exclude cremeronline\.com
+            --exclude cpt\.univ-mrs\.fr
             _site
           fail: true
