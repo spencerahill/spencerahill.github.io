@@ -17,6 +17,7 @@ title: "Publications"
    Understanding the Drivers of the June 2023 Canadian Wildfire Smoke Event for
    New York City." *J. Geophys. Res. - Atmos.*, **131** (9), e2025JD044798.
    doi: [10.1029/2025JD044798](https://doi.org/10.1029/2025JD044798).
+   [PDF](papers/randazzo-etal-jgr-2026-wall-of-smoke.pdf).
 2. \(2025\) Zhang, P, NJ Lutsko, **SA Hill**, S.-P. Xie. "Hadley Cell Dynamics
    in an Axisymmetric Single-Layer Model: Effects of Parameterized Eddies and
    Equatorial Heating." *J. Atmos. Sci.*, **82**, 2757-2770.
