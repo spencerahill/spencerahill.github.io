@@ -36,12 +36,33 @@ Deployment is automatic via `.github/workflows/publish.yml` on pushes to `master
 ## Common content edits
 
 Quarto-only workflow now. To add a paper:
-1. Drop the PDF into `papers/`.
+1. Drop the PDF into `papers/`. The pre-commit hook shrinks it; see below.
 2. Add an entry to the appropriate section of `publications.qmd` (numbered list, author formatting with `**Hill, SA**` for him, `[PDF](papers/...)` link, `[10.xxxx/...](https://doi.org/10.xxxx/...)` DOI link). **Year prefix must be backslash-escaped** as `\(YYYY\)` — Pandoc treats unescaped `(YYYY)` at the start of a list item as a nested fancy-list marker and the rendered numbering breaks.
 3. Render locally with `quarto preview` or `quarto render` to verify the link works.
 4. Commit and push to master — GitHub Actions deploys automatically.
 
 Group / opportunities / teaching pages: edit the respective `.qmd` directly and follow the same render/commit/push flow.
+
+## PDF optimization on commit
+
+`tools/optimize-staged-pdfs.sh` runs from the repository's pre-commit hook and
+shrinks every staged PDF with `optpdf` before it is committed, so a paper
+dropped into `papers/` never reaches the published site at its original size.
+It downsamples images to 300 dpi by default, which keeps figures at print
+resolution; measured over the 32 PDFs in `papers/` on 2026-09-16 that takes the
+directory from 72.3 MB to 62.6 MB, and 150 dpi would take it to 51.5 MB at
+screen-only quality.
+
+`optpdf` keeps the original whenever Ghostscript's output is larger or has lost
+text, so a file the hook leaves alone is one that could not be shrunk safely. A
+PDF whose bulk is vector line art rather than images barely shrinks at any
+setting.
+
+The hook lives in `.git/hooks`, which git does not track, so a fresh clone needs
+`bash tools/install-hooks.sh` once. `SKIP_PDF_OPT=1 git commit` skips it for one
+commit and `PDF_OPT_DPI=150 git commit` changes the resolution. The hook never
+blocks a commit: a missing `optpdf` or a failed conversion prints a message and
+the commit proceeds.
 
 ## Permissions
 
